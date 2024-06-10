@@ -5,3 +5,6 @@ compile:
 
 clean:
 	@$(REBAR) clean
+
+dialyze:
+	@$(REBAR) dialyzer
